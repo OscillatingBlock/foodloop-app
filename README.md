@@ -1,12 +1,13 @@
-Okay, here is a draft for a comprehensive `README.md` file for your FoodLoop backend GitHub repository. Remember to fill in the bracketed placeholders `[...]` with your specific details where necessary.
 
-```markdown
 # FoodLoop Backend
-
 
 This repository contains the backend for **FoodLoop**, an application designed to combat food waste by creating a direct link between food retailers, farmers, and Non-Profit Organizations (NGOs). The platform aims to facilitate the efficient distribution of surplus food to those in need, reducing waste and supporting communities.
 
 This project was proudly developed during my **first hackathon**. It served as an invaluable learning experience in rapid development, API design, database integration, and working collaboratively under time constraints.
+
+
+![image](https://github.com/user-attachments/assets/873bbfe5-05de-4a6a-823e-047a48d2e2eb)
+
 
 ## Features
 
@@ -141,7 +142,6 @@ The backend exposes various API endpoints for different functionalities. Refer t
 └── run.py
 ## Project Structure
 
-```
 
 ## Contributing
 
@@ -152,4 +152,4 @@ Contributions are welcome, especially as this was a hackathon project! If you ha
 
 * Grateful for the capabilities provided by the Google Gemini API.
 * Shoutout to the Flask and SQLAlchemy communities for their excellent documentation and support.
-```
+
