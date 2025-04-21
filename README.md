@@ -102,7 +102,6 @@ The backend should now be running locally, typically at `http://127.0.0.1:5000`.
 The backend exposes various API endpoints for different functionalities. Refer to the API documentation for details on available routes, methods, and request/response formats.
 
 
-```markdown
 ### API Documentation
 
 | Method   | Endpoint                       | Description                                                                  | Authentication    |
@@ -126,8 +125,9 @@ The backend exposes various API endpoints for different functionalities. Refer t
 | `POST`   | `/retailers/food/<int:id>/ignore` | Ignore notification for an item                                              | Retailer Req.     |
 | `GET`    | `/farmer/simple_demand_forecast` | Get simple demand forecast and market analysis based on recent regional data | Farmer Required   |
 
+
+## Project Structure
 ```
-(base) 
 .
 ├── foodloop_app
 │   ├── api_docs.md
@@ -140,7 +140,9 @@ The backend exposes various API endpoints for different functionalities. Refer t
 │   └── retailer_routes.py
 ├── requirements.txt
 └── run.py
-## Project Structure
+
+```
+
 
 
 ## Contributing
